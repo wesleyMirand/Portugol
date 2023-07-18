@@ -1,0 +1,56 @@
+var
+a,b:inteiro
+
+inicio
+
+a <- 1
+escreval(a) 
+b <- 427
+escreval(b) 
+
+fim  
+
+=====================================
+
+var
+ a, b : inteiro
+
+ inicio
+ 
+ escreval("digite o valor A")
+ leia(A)
+ escreval("digite o valor B")
+ leia(B)
+ escreval("A soma de A e B:", A+B)
+
+fim
+ =========================================
+
+
+ var
+ A: inteiro
+ B: real
+
+ inicio
+ escreval("valor A e B")
+ leia(A,B)
+ escreval("A soma é A e B", A+B,"!")
+ B<-14.3 
+
+ fim
+
+ ========================================
+
+ var
+ A:inteiro
+ B:real
+ Booleano: logico
+ Letra, Palavra, Nome: caracter
+
+ inicio
+
+ escreval("Digite o nome:") 
+ leia(nome)
+ escreval("oi", nome)
+
+ fim
