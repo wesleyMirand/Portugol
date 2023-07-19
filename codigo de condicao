@@ -1,0 +1,53 @@
+condicional simples: se sim faz algo e continua
+se nao nao faz nada e continuao o codigo
+
+var 
+valor1: inteiro
+palavra: caractere
+
+inicio
+//secao de comando
+escreval("digite um valor:")
+leia(valor1)
+
+
+//condicional simples
+se (valor1 > 10 ) entao
+escreval ("o valor é maior que 10 ")
+
+se (palavra = "lokao" ) entao
+escreval ("sai pra la! ")
+fimse
+
+E temos a composta
+Se eu for moreno, EU sou sim,  vou fazer algo e continuar
+Se eu sou branco, eu não sou, faco algo e continuo
+
+var 
+valor1: inteiro
+
+inicio
+//condicional composta
+
+se (valor1 > 10) entao
+    escreval("e maior que 10")
+senao
+    escreval("não é maior que 10")
+fimse
+
+
+E temos a composta com 3 condicao
+
+SOu moreno -> sim -> faco algo e continuo o codigo
+Sou branco -> nao -> sou meio amarelo -> sim -> faco algo e continuo
+SOu branco -> nao -> olho azul? -> nao -> faz algo e continua
+
+//condicional com 3
+se(valor> 15 )entao
+escreval("o valor é maior que 15")
+senao 
+  se (valor1 <15 ) entao
+   escreval("o valor é menor que 15")
+ senao
+escreval ("o valor é 15")
+fimse 
