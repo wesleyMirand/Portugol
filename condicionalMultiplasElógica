@@ -1,0 +1,32 @@
+Temos o (E):
+Nele tenque ser as duas verdadeiras, exemplo Eu sou moreno? SIM -> Tenho cabelo castanho? SIM então faço algo e continuo.
+Se as duas não for verdadeira ele vai direto pro nao e finaliza o codigo
+
+Var 
+    valor1: inteiro
+
+Inicio
+    escreval("Digite um numero")
+    leia (valor1)
+//condicional multipla(E)
+Se (valor1>20) e (valor1>40) Então
+   escreval("está entre 20 e 40")
+Senão 
+  escreval("o numero está não aqui")
+fimse
+
+------------------------------------------------------------------------------------------------------------------------------
+Temos o (OU):
+Ja no "OU"" se as duas ou pelo menos uma no meio for verdadeiro ela vai fazer algo e continuar.
+  Var
+  valor2:inteiro
+
+  Inicio 
+     escreval("Digite um numero")
+     leia(valor2)
+//condicional  multipla ou
+      Se (valor2>50) ou (valor2<60) então
+  escreval("O num está em 50 a 60")
+     Senão
+      escreval("O numero nao esta aqui")
+fimse
