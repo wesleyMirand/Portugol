@@ -1,0 +1,47 @@
+Um grande exemplo que podemos usar no "Escolha Caso" é ler idade, qual série o aluno está matriculado, se ele está frequentando a escola e
+se tiver 10 anos ele vai estar na 4série ou 12 na sétima.
+
+Condição 1- SIM -> faz algo -> continua
+-não? então
+Condição 2- sim -> faz algo -> continua 
+-não tambem? então
+Condição 3- SIM -> faz algo -> continua
+
+exemplo código:
+
+valor1 inteiro
+
+inicio  
+ escreval ("digite um valoe!")
+    leia (valor1)
+
+    escolha(valor1)
+         caso 1
+             escreval("O valor é 1!")
+         caso 2
+             escreval("O valor é 2!")
+         outro caso
+             escreval("O valor é 3!")
+
+fimescolha
+
+fim
+
+--------------------------------------------------------------------------------------------
+var 
+ palavra : caracter
+
+inicio
+ escreval("Digite uma palavra")
+ leia(palavra)
+
+escolha(palavra)
+   caso "wesley"
+       escreval("Opa wes")
+   caso "luciana"
+       escreval("Bom dia lulu")
+  outrocaso  
+       escreval("Sai fora, nunca te vi!")
+  fimescolha
+
+  fim
