@@ -1,0 +1,39 @@
+var
+   dado:inteiro
+
+inicio
+    aleatorio on
+        leia(dado)
+    aleatorio off
+
+escolha(dado)
+     caso1
+           escreval(pule1)
+     caso2
+           escreval(pule2)
+     caso3
+           escreval(pule3)
+
+--------------------------------------------------------------------------------------------------
+var  
+   dado:caracter
+
+inicio
+    aleatorio on
+      leia(palavra)
+    aleatorio off
+
+escolha(palavra)
+
+---------------------------------------------------------------------------------------------
+Var
+
+numeroReal:Real
+
+inicio 
+  aleatorio on
+     leia(numeroReal)
+  aleatorio off
+
+escolha(numeroReal)
+
