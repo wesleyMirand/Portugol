@@ -1,0 +1,27 @@
+Repetir varias vezes o bloco verdadeiro até que ele seja falso
+
+Var
+valor1:inteiro
+
+inicio 
+valor1<-0
+enquanto(valor1 <=3) faca
+      escreval(valor1)
+      valor1 <- valor1 + 1
+fim enquanto
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Enquanto for diferente de "Wesley" vai dar erro, até ser wesley.
+
+Var
+palavra:caracter
+
+Inicio
+palavra <- "Qualquer coisa"
+enquanto (palavra <>"Wesley")faca
+   leia(palavra)
+fimenquanto
+fimalgoritmo
+
+----------------------------------------------------------------------------------------------------------------------------------
