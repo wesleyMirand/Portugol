@@ -1,0 +1,11 @@
+No repita ele primeira faz alguma coisa e depois ele analisa a condição, se for verdadeira ela continua fazendo, até dar falsa, ai ela sai e continua
+
+var
+valor1:caracter
+
+inicio
+valor 1 <- 0
+    repita
+       escreval(valor1)
+       valor1 <- valor1 + 1
+ate (valor1 = 10)
