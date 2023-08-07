@@ -1,0 +1,14 @@
+la no laço de repetição para o exemplo é :
+Limite inferior 1-> O x é menor que 3? -> SIM-> faz algo x+x -> 2 -> é menor que 3-> sim ->imprimi na tela-> faz isso até dar 4->Depois vai perde 1 
+e continuar com 3.
+Limite superio 3
+ y=3 e x=0
+
+var
+valor1:inteiro
+
+inicio
+para valor de 1 ate 3 faca
+   escreval(valor1)
+fim para
+fim algoritmo
