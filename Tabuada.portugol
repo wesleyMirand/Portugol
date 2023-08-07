@@ -1,0 +1,13 @@
+var
+valor, x, y: inteiro
+
+inicio
+x <-1
+y <- 10
+
+escreval("Qual tabuada deseja ver:")
+leia(tabuada)
+para valor de x ate y faca
+escreval(tabuada * valor)
+fim para
+fim algoritmo
