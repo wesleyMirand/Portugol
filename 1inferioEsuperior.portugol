@@ -1,0 +1,12 @@
+var
+contador, limiteInferio, limiteSuperior, tabuada:inteiro
+
+inicio
+limiteInferior <- 1
+limiteSuperior <- 10
+escreval("Qual tabuada deseja ver?")
+leia(tabuada)
+para contador de limiteInferior ate limiteSuperior faca
+     escreval(tabuada * contador)
+fimpara
+fimalgoritmo
