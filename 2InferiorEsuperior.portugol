@@ -1,0 +1,14 @@
+var
+contador, limiteInferior, limiteSuperior, tabuada :inteiro
+
+inicio
+//secao comando
+limiteInferior <-1
+limiteSuperior <-10
+
+escreval("Qual tabuada deseja ver?")
+leia(tabuada)
+escreval("tabuada do",tabuada)
+para Contador de limiteInferior ate limiteSuperior faca
+escreval(tabuada,"x", contador,"=", contador)
+fimpara
