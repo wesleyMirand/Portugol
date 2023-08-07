@@ -1,0 +1,18 @@
+var 
+opcao1, valor1, valor2 : inteiro
+
+inicio
+escreval("escolha uma opcao")
+escreval("1-somar")
+escreval("2-subtrair")
+leia(opcao1)
+escolha(opcao1)
+caso 1
+leia(valor1, valor2)
+escreval(valor1 + valor2)
+caso 2
+leia(valor1, valor2)
+escreval(valor1 - valor2)
+outro caso
+escreval("opcao invalida")
+fimescolha
