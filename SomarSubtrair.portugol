@@ -1,0 +1,20 @@
+var
+opcao1, valor1, valor2, resultado: inteiro
+
+inicio 
+enquanto(opcao1<>1) e (opcao<>2) faca
+escreval("escolha uma opcao")
+escreval("1-somar")
+escreval("2-subtrair")
+leia(opcao)
+limpatela
+fimenquanto
+escreval("Digite dois valores:")
+leia(valor1, valor2)
+escolha(opcao1)
+caso 1
+resultado <- valor1 + valor2
+caso 2
+resultado <- valor1 - valor2
+fim escolha
+fim algoritmo
