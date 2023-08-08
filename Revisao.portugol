@@ -1,0 +1,80 @@
+//Vamos fazer 1 menu com 3 opcoes: 1-calculadora com dois valores de usuario e vamos deixar ele escolher qual operacao quer fazer, 2-exibir tabuada que o usuario escolher, 3-vamos jogar 3 dados ou 6lados
+
+var 
+opcao1: inteiro
+operacao, valor1, valor2:inteiro
+tabuada:inteiro
+
+inicio
+
+//menuinicial
+enquanto(opcao<1) ou (opcao>3)faca
+escreval("escolha uma opcao")
+escreval("1-calculadora")
+escreval("2-tabuada")
+escreval("3-jogar3dados")
+leia (opcao1)
+limpatela
+fimenquanto
+
+//Apos escolher 
+escolha(opcao1)
+//calculadora
+caso 1
+    //lendo os valores dos usuarios
+    escreval("Digite dois valores:")
+    leia(valor1, valor2)
+
+    //validando e escolhendo operacao
+    enquanto(operacao <1) ou (operacao >5) faca
+    limpatela
+
+    escreval("1-soma")
+    escreval("2-subtracao")
+    escreval("3-multiplicacao")
+    escreval("4-divisao")
+    escreval("5-resto da divisao")
+    leia(operacao)
+    escolha(operacao)
+    caso1
+         resultado <-valor1 + valor2
+    caso2
+         resultado <- valor1 - valor2
+    caso3
+         resultado <- valor1 * valor2
+    caso4 
+         resultado <- valor1 / valor2
+    caso5
+         resultado <- valor1 MOD valor2
+    outrocaso
+         escreval("opcao invalida")
+    fimescolha
+         escreval("O resultado é :",resultado)
+    fimenquanto
+
+    //tabuada
+        caso2
+        //valida o valor para a tabuada
+        repita 
+        escreval("qual tabuada deseja ver?(entre 1 e 10)") 
+        leia(tabuada)
+        limpatela
+        ate(tabuada >= 1) e (tabuada <=10)
+
+        contador <- 1
+
+        //imprime tabuada
+           enquanto (contador <= 10) faca
+           escreval(tabuada, "x", contaodor, "=", tabuada * contador)
+           contador <- contador + 1
+           fimenquanto
+
+      //3dados
+      caso 3
+      //arremesa o dados
+      para contador de 1 ate 3 faca
+      aleatorio ON
+      leia(dado)
+      aleatorio OFF
+      fimpara
+      fimescolha
