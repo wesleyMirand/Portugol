@@ -1,0 +1,8 @@
+var
+VetorDeCaractere[2] <-"A"
+VetorDeCaractere[3] <-"Oi"
+
+escreval("Na posição 2, o valor é: ", VetorDeCaractere[2])
+escreval("Na posição 3, o valor é: ", VetorDeCaractere[3])
+
+//é assim para definir e acessar , posso modificar os valores e pra ler só por um leia!
