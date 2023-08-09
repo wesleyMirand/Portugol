@@ -1,0 +1,27 @@
+var 
+Contador:inteiro
+VetorDeInteiros:vetor[0..3] de inteiros
+
+inicio
+VetorDeInteiros[0] <-1
+VetorDeInteiros[1] <-2
+VetorDeInteiros[2] <-3
+VetorDeInteiros[3] <-4
+
+//exibindovetor
+para contador de 0 ate 3 faca
+   escreval(VetorDeInteiros[Contador])
+fimpara
+
+--------------------------------------------------------------------------------------------------
+var 
+Contador:inteiro
+VetorDeInteiros:vetor[0..3] de inteiros
+
+inicio
+
+//usuarioPopulandoVetor
+para contador de 0 ate 3 faca
+leia((VetorDeInteiros[Contador])
+fimpara
+
