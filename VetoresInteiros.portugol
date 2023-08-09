@@ -1,0 +1,22 @@
+var 
+  VetorDeInteiros: vetor[0..3] de inteiro
+
+  inicio
+
+  VetorDeInteiros[0] <-4
+  escreval("Na posição 0, o valor é:",VetorDeInteiros[0])
+
+  ------------------------------------------------------------------------
+  var
+   VetorDeInteiros: vetor[0..3] de inteiro
+
+  inicio
+
+  leia(VetorDeInteiros[0])
+  escreval("Na posição 0, o valor é:",VetorDeInteiros[0])
+  -----------------------------------------------------------------------
+   VetorDeInteiros: vetor[0..3] de inteiro
+
+  inicio
+  
+  escreval("Na posição 0, o valor é:",VetorDeInteiros[0])
