@@ -1,0 +1,14 @@
+var
+VetorDeReais:vetor[0..3]
+
+inicio
+VetorDeReais[0] <-1.1
+escreval("Na posição 0,o valor é:",VetorDeReais[0])
+
+-----------------------------------------------------------------------
+
+var
+VetorDeReais:vetor[0..3]
+
+inicio
+escreval("Na posição 0,o valor é:",VetorDeReais[0])
