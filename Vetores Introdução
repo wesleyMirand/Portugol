@@ -1,0 +1,8 @@
+Existem varios tipo de vetores : Inteiro,   real, booleano/lógico, Caracteres...
+Vetores:                     [0,2,5,6],[1.1,2.3,2.0,3.4], [v,f,f,f] , ["paulo", "oi"," ", "bb"]
+                              0 1 2 3   0     2   3   4    0 1 2 3      0         1    2    3  
+
+Variaveis que armazenam muitos variasveis.
+Exemplo: Armazenar nota de 200alunos, vou criar 200vetores?NãO! Vou criar um vetor de 200posiçoes e armazenar em cada posição colocando notas diferente.
+Sempre vai começar com 0, no visual g pode ser criado quantos vetores quisermos, ja no dia a dia nao!
+
