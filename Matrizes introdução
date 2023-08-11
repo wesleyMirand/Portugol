@@ -1,0 +1,16 @@
+Bom matrizes são um conjunto de vetores, so que no vetor é so uma linha, ja na matriz temos "LINHAS E COLUNAS"
+
+exemplo:
+
+                linha
+valor: [0,1,0,0] --------------------> 0 [0,1,0,0]
+        0 1 2 3
+   
+
+
+                 linha
+valor:[1,1,0,0] --------------------> 1 [1,1,0,0]
+       0 1 2 3                           | | | | 
+       ^                         coluna:0 1 2 3
+       |
+    posição
