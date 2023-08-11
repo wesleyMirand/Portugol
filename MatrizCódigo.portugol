@@ -1,0 +1,32 @@
+var
+matriz: vetor[0..3, 0..3] de inteiro
+contador1, contador2: inteiro
+
+inicio
+//linha0
+Matriz[0,0] <-0
+Matriz[0,1] <-1
+Matriz[0,2] <-0
+Matriz[0,3] <-0
+//linha1
+Matriz[0,0] <-1
+Matriz[0,1] <-1
+Matriz[0,2] <-0
+Matriz[0,3] <-0
+
+//Exibindo Matriz
+para contador1 de 0 ate 1 faca
+     para contador2 de 0 ate 3 faca
+         escreval(matriz[contador1, contador2])
+    fimpara
+    escreval(" ")
+fimpara
+
+---------------------------------------------------------------------
+//para ler
+para contador1 de 0 ate 1 faca
+     para contador2 de 0 ate 3 faca
+          escreval(matriz[contador1, contador2])
+          fimpara
+          escreval("")
+fimpara
