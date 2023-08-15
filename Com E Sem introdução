@@ -1,0 +1,10 @@
+O procedimento funciona quando vai definir um determinado bloco e quando voce chamar esse procedimento, pelo nome, o 
+codigo vai ser executado. Utilizado quando precisa se reutilizar certas funcoes varias vezes.
+
+Procedimento Cantar           Cantando             para de cantar e vai embora
+-> CHAMA             -> procedimento           -> continua
+
+
+
+Procedimento  Cantar FUNK       Cantando funk                        
+-> chama                   -> procedimento com parametro         -> continua
