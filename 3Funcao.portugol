@@ -1,0 +1,7 @@
+var
+soma:inteiro
+
+inicio
+soma <-a + b
+retorne soma
+fimfuncao
