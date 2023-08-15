@@ -1,0 +1,16 @@
+var
+valor1:inteiro
+//funcao sem parametro
+funcao retornaInteiro:inteiro
+
+inicio
+escreval("oi")
+escreval("amor")
+retorne 10
+fim funcao
+
+inicio
+//seção de comando
+valor1 <---retornaInteiro
+escreval(valor1)
+fimalgoritmo
