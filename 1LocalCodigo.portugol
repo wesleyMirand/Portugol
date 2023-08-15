@@ -1,0 +1,10 @@
+var
+procedimento desenhaComParametro
+
+inicio
+escreval(opcao)
+fimprocedimento
+
+inicio
+//seção de comando
+desenhaComParametro(1)
