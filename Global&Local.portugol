@@ -1,0 +1,23 @@
+var
+//desenha na tela
+procedimento desenha
+
+inicio
+escreval("*---*")
+fimprocedimento
+
+
+//desenha a opcao escolhida
+procedimento desenhaComParametro(opcao:inteiro)
+
+inicio
+    se (opcao=1) entao
+        escreval(":D")
+    senao
+        escreva(":1")
+    fimse
+    fimprocedimento
+
+    inicio
+    //secao de comando
+    desenha com parametro(2)
