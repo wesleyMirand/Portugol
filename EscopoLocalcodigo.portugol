@@ -1,0 +1,15 @@
+var
+//procedimento soma com var local
+procedimento IncrementaAuxiliar
+
+var
+auxiliar:inteiro
+
+inicio
+auxiliar <- auxiliar + 1
+escreva(auxiliar)
+fimprocedimento
+
+inicio 
+incrementaAuxiliar
+incrementaAuxiliar
