@@ -1,0 +1,14 @@
+var
+valor1: inteiro
+
+//aumenta 1 na var global
+procedimento aumentaUm
+
+inicio
+valor<- valor1 + 1
+fimprocedimento
+
+inicio
+escreval(valor1)
+aumentaUm
+escreval(valor1)
