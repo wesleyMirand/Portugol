@@ -1,0 +1,16 @@
+var
+resultado, auxiliar1, auxiliar2: inteiro
+
+//funcao com parametro
+funcao RetornaSoma (a, b:inteiro):inteiro
+inicio
+  retorne A + B
+fimfuncao
+
+inicio
+//seçãodecomando
+escreval("insira dois valores:")
+leia(auxiliar1, auxiliar2)
+resultado <- RetornaSoma(auxiliar1,auxiliar2)
+escreval(resultado)
+fimalgoritmo
