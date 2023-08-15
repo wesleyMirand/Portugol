@@ -1,0 +1,13 @@
+var
+procedimento desenha
+
+inicio
+escreval("*------*")
+fimprocedimento
+
+inicio
+desenha
+desenha
+desenha
+desenha
+
