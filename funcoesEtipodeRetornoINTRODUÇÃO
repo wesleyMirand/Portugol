@@ -1,0 +1,28 @@
+Quando se trata de procedimento, eles nao retornam valores.
+E ja com as funcoes elas RETORNAM
+
+EX: Var resultado recebe funcao(Int,Caract,Real...)
+
+
+1(var é igual minha funcao)         2(minha funcao vai retorna valor)
+Funcoes                       ---> Funcao 
+Que Chamam variaveis          ---> Retorna valor                        ---> CONTINUA
+                                
+                                <--3(vai voltar para var <--)
+4(depois codigo continua) ->-----------------------------------------------------^
+
+-----------------------------------------------------------------------------------
+
+Chama                    funcao
+(parametros) ----------> com Param.     -------------------------------------->continua
+variaveis                 retorna valor
+
+1Minha var ----->         2vai ser igual minha funcao
+                          e retornar um valor
+                          <<<-----3esse valor volta pra var(1)
+4 E depois continua 
+
+
+
+
+
