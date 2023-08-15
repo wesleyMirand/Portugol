@@ -1,0 +1,12 @@
+Temos 2 tipo de escopos:
+
+cria uma var              muda o valor da var e manda de volta pro inicio
+Global O------------------> MUDa valor
+                       mudei e adicionei
+
+
+
+Local ---------------------> O muda valor 
+ ^
+nao tem nada no inicio,
+so defini o valor dentro do procedimento
