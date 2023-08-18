@@ -1,0 +1,104 @@
+var 
+tabuleiro, mascara:vetor[1..10, 1..10] de caractere
+linha, coluna, chaces, tentativas, pontos:inteiro
+
+//Inicia o jogo
+procedimento iniciaJogo
+inincio
+chances <- 5
+para linha de 1 ate 10 faca
+     para coluna de 1 ate 10 faca
+           tabuleiro[linha, coluna]<-"A"
+           mascara[linha, coluna]<-"="
+     fimpara
+fimpara
+posicionaNavios
+posicionaPortaAvioes
+fimprocedimento
+
+//mostra o tabuleiro
+procedimento mostraMascara
+inicio
+para linha de 1 ate 10 faca
+     para coluna de 1 ate 10 faca
+           escreva(" ",mascara[linha, coluna]," ")
+     fimpara
+     escreval
+fimpara
+escreval("Pontos:", pontos)
+fimprocedimento
+
+
+//posiciona Navio
+procedimento posicionaNavios
+var
+contador:inteiro
+inicio
+
+//Posiciona X navios
+para contador de 1 ate 40 faca
+
+     //colocar em uma posicao aleatoria
+     aleatorio 1,10
+     leia(linha)
+     leia(coluna)
+     aleatorio off
+     limpatela
+     se (tabuleiro[linha, coluna] = "A") entao
+           tabuleiro[linha, coluna] <-"N"
+     fimse
+
+fimpara
+
+fimprocedimento
+
+procedimento posicionaPortaAvioes
+var
+contador:inteiro
+inicio
+
+//Posiciona X navios
+para contador de 1 ate 20 faca
+
+     //colocar em uma posicao aleatoria
+     aleatorio 1,10
+     leia(linha)
+     leia(coluna)
+     aleatorio off
+     limpatela
+     se (tabuleiro[linha, coluna] = "A") entao
+           tabuleiro[linha, coluna] <-"P"
+     fimse
+
+fimpara
+
+fimprocedimento
+
+inicio
+iniciaJogo
+//secao de comando
+enquanto(tentativa < chances ) faca
+         limpatela
+         mostraMascara
+         escreva("Digite uma linha")
+         leia("linha")
+         escreva("Digite uma coluna")
+         leia("coluna")
+         se (mascara[linha, coluna] <>"-")entao
+            escreval("Voce ja digitou essa coordenada!")
+         senao
+               mascara[linha, coluna]<-tabuleiro[linha, coluna]
+               escolha tabuleiro[linha, coluna]
+               caso "N" 
+                   pontos<-pontos+5
+               caso "P" 
+                   pontos<-pontos+10  
+               fimescolha   
+               fimse
+             fimse
+             tentativas<-tentativas+1
+fimenquanto
+
+limpatela
+escreval("O jogo acabou, voce fez:", pontos,"pontos")
+fimalgoritmo
