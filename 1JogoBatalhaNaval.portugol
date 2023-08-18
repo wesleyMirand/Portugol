@@ -1,3 +1,8 @@
+//No jogo de tabuleiro, vamos usar o 10 por 10, vamos posicionar os elemento escondido nele. O usuariovai chutar uma linha 
+//e uma coluna, se acerta vai ganhar. Vai ter um numero de tentativas assim como na forca, vamos usar mascaras no tabuleiro,
+//vamos ter tabuleiro e tabuleiro com mascara.
+
+
 var 
 tabuleiro, mascara:vetor[1..10, 1..10] de caractere
 linha, coluna, chaces, tentativas:inteiro
