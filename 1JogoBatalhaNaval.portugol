@@ -1,0 +1,41 @@
+var 
+tabuleiro, mascara:vetor[1..10, 1..10] de caractere
+linha, coluna, chaces, tentativas:inteiro
+
+//Inicia o jogo
+procedimento iniciaJogo
+inincio
+chances <- 5
+para linha de 1 ate 10 faca
+     para coluna de 1 ate 10 faca
+           tabuleiro[linha, coluna]<-"A"
+           mascara[linha, coluna]<-"-"
+     fimpara
+fimpara
+fimprocedimento
+
+
+//mostra o tabuleiro
+procedimento mostraMascara
+inicio
+para linha de 1 ate 10 faca
+     para coluna de 1 ate 10 faca
+           escreva(" ",mascara[linha, coluna]," ")
+     fimpara
+     escreval
+fimpara
+fimprocedimento
+
+inicio
+iniciaJogo
+//secao comando
+enquanto(tentativa < chances ) faca
+         limpatela
+         mostraMascara
+         escreva("Digite uma linha")
+         leia("linha")
+         escreva("Digite uma coluna")
+         leia("coluna")
+tentativas <- tentativas+1
+fimenquanto
+fimalgoritmo
