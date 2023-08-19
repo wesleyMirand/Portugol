@@ -17,6 +17,7 @@ fimprocedimento
 //Mostra o jogo
 procedimento mostraJogo
 inicio
+limpatela
 escreval("N" da jogada:", rodada)
 escreval("-----------")
 mostraTabuleiro
@@ -40,14 +41,31 @@ para linha de 1 ate 3 faca
      para coluna de 1 ate 3 faca
           tabuleiro[linha,coluna]<-"#"
      fimpara
-     escreval
 fimpara
 fimprocedimento
+
+//Posiciona a Jogada
+procedimento posicionaJogada(linhaJogada, colunaJogada:inteiro)
+inicio
+se ( vez =1 ) entao
+     tabuleiro[linhaJogada,colunaJogada) <-"X"
+     vez<-2
+senao 
+     tabuleiro[linhaJogada,colunaJogada) <-"O"
+     vez<-1
+fimse
+rodada<-rodada+1
+fimprocedimento
+
 
 //Verifica Jogo
 funcao verificaJogo:logico
 inicio
-retorne verdadeiro
+se (rodada> 8) entao
+    retorne falso
+senao
+    retorne verdadeiro
+fimse
 fimfuncao
 
 
@@ -59,28 +77,16 @@ mostraJogo
 enquanto (verificaJogo = verdadeiro) faca
     se (vez = 1) entao
           escreval("Vez do :" nomeJogador1)
-          vez<-2
     senao
           escreval("Vez do :" nomeJogador2)
-          vez<-1
     fimse  
     escreval("Digite uma linha:") 
     leia(linhaJogada)
     escreval("Digite uma coluna:") 
     leia(colunaJogada)
+    posicionaJogada(linhaJogada, colunaJogada)
+    mostrajogo
 fimenquanto
 
 
 fimalgoritmo
-
-
-
-
-
-
-
-
-
-
-
-
