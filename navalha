@@ -1,0 +1,86 @@
+var
+tabuleiro:vetor {1..3, 1..3] de caractere
+nomeJogador1, nomeJogador2:caracter
+linha, coluna, linhaJogada, colunaJogada, contador, rodada, vez:inteiro
+
+//Inicia o Jogo
+procedimento IniciaJogo
+inicio
+escreval("Bem vindo ao jogo!")
+escreval("Digite o nome do jogador 1:")
+leia(nomeJogador1)
+escreval("Digite o nome do jogador 2:")
+leia(nomeJogador2)
+vez<-1
+fimprocedimento
+
+//Mostra o jogo
+procedimento mostraJogo
+inicio
+escreval("N" da jogada:", rodada)
+escreval("-----------")
+mostraTabuleiro
+escreval("-----------")
+fimprocedimento
+
+//Mostra o tabuleiro
+procedimento mostraTabuleiro
+inicio
+para linha de 1 ate 3 faca
+     para coluna de 1 ate 3 faca
+          escreva(""tabuleiro[linha,coluna])
+     fimpara
+fimpara
+fimprocedimento
+
+//Mostra o tabuleiro
+procedimento iniciaTabuleiro
+inicio
+para linha de 1 ate 3 faca
+     para coluna de 1 ate 3 faca
+          tabuleiro[linha,coluna]<-"#"
+     fimpara
+     escreval
+fimpara
+fimprocedimento
+
+//Verifica Jogo
+funcao verificaJogo:logico
+inicio
+retorne verdadeiro
+fimfuncao
+
+
+inicio
+//secao de comandos
+IniciaJogo
+iniciaTabuleiro
+mostraJogo
+enquanto (verificaJogo = verdadeiro) faca
+    se (vez = 1) entao
+          escreval("Vez do :" nomeJogador1)
+          vez<-2
+    senao
+          escreval("Vez do :" nomeJogador2)
+          vez<-1
+    fimse  
+    escreval("Digite uma linha:") 
+    leia(linhaJogada)
+    escreval("Digite uma coluna:") 
+    leia(colunaJogada)
+fimenquanto
+
+
+fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
