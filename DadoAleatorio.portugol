@@ -1,0 +1,12 @@
+//exemplo de dado
+
+var
+DADO:inteiro
+
+inicio
+//secao de comando
+escreval("O valor do dado é:")
+aleatorio on
+leia(DADO)
+aleatorio off
+fimalgoritmo
