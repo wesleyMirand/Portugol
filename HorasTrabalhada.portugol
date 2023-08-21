@@ -1,0 +1,17 @@
+//Ler nome de Funcionario, ver quantas horas ele trabalha por dia e quanto que ele ganha por hora, descobrindo quanto ele ganha por dia
+
+var
+NOME:caractere
+SALARIO:real
+HORAS:inteiro
+
+inicio
+//secao de comando
+escreval("Qual o nome do funcionario?")
+leia(NOME)
+escreval("Quantas horas ele trabalha por dia?")
+leia(HORAS)
+escreval("Quanto ele ganha por hora?")
+leia(SALARIO)
+escreval("O funcionario", NOME," recebe:R$", HORAS*SALARIO,",por dia.")
+
