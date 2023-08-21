@@ -1,0 +1,21 @@
+//Escolha caso, em que série o aluno deveria estar de acordo com a idade dele
+
+var
+IDADE:inteiro
+
+inicio
+//secao de comando
+escreval("Digite a idade do aluno:")
+leia(IDADE)
+escolha IDADE
+caso 12
+    escreval("7ºSérie")
+caso 13
+    escreval("8ºSérie")
+caso 14
+    escreval("1ºSérie do ensino medio")
+outrocaso
+    escreval("Valor invalido")
+
+fimescolha 
+fimalgoritmo
