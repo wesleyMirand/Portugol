@@ -1,0 +1,12 @@
+//Aplicar operações com Váriaveis, iremos calcular a média, ler 2 valores e somar os 2 e dividir por 2. Para saber a nota média.
+
+var
+A, B: inteiro
+MEDIA: real
+
+Inicio
+//secao de comando
+escreval("Digite o valor de A e B:")
+leia(A,B)
+MEDIA<- (A+B)/2)
+escreval("A média é :",MEDIA)
