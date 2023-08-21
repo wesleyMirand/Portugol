@@ -1,0 +1,15 @@
+
+//Vamos fazer um calculo de velocidade média de um veiculo que está correndo em quilometros e quero saber quanto tempo levou pra ele ter corrido,
+tantos quilometro e assim ter a velocidade media e quilometros por hora.
+
+var
+TEMPO, DISTANCIA:real
+
+inicio
+//secao de comando
+escreval("Qual foi a distancia percorrida pelo veiculo?(km)")
+leia(DISTANCIA)
+escreval("Quanto tempo foi levado?(horas)")
+leia(TEMPO)
+escreval("A velocidade media do veiculo foi de:", DISTANCIA/TEMPO,"km por hora)
+fimalgoritmo
