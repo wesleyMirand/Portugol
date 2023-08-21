@@ -1,0 +1,26 @@
+//Vou pesquisar uma juncao entre o meu escolha para fazer um pequeno menu 
+
+var 
+OPCAO, CONTADOR:inteiro
+NOME:caractere
+
+inicio
+//secao de comando
+NOME <- "JUDITE"
+CONTADOR <- 1
+escreval("1-Exibir valores de 1 ate 10")
+escreval("2-Escrever um nome")
+leia(OPCAO)
+escolha OPCAO
+caso 1
+    enquanto (CONTADOR <= 10) faca
+              escreval(CONTADOR)
+              CONTADOR <- CONTADOR+1
+    fimenquanto
+caso 2
+    escreval(NOME)
+fimescolha
+
+fimalgoritmo
+
+
