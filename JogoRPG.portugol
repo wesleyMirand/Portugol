@@ -1,0 +1,70 @@
+Vai ter um inventario onde vamos guarda itens e o jogo vai ser de texto. Terá 3 opcoes em que o usuario 
+vai escolher qual quer seguir, quer dancar, quer fugir. Voce vai escolher opcoes e conforme for 
+ganhando itens vai atacando os monstros, perdendo vida e ganhando vida. 
+Jogo de multipla escolha, espelhado no jogo zord, um jogo antigo feito apenas com texto.
+
+var 
+opcoesEscolhidas:vetor[0..2] de inteiro
+inventario:vetor[0..2] de caractere
+rodada, vida:inteiro
+
+//mostra opcoes ao usuario
+procedimento mostraOpcoes(opcao1, opcao2, opcao3:caracter)
+inicio
+se(opcao <> "") entao
+     escreval("1-",opcao1)
+fimse
+se(opcao <> "") entao
+     escreval("2-",opcao2)
+fimse
+se(opcao <> "") entao
+     escreval("3-",opcao3)
+fimse
+fimprocedimento
+
+//exibe status
+procedimento exibeStatus
+inicio
+limpatela
+escreval("Vida:", vida)
+escreval("Inventario:", inventario[0], "|", inventario[1], "|", inventario[2])
+fimprocedimento
+
+inicio
+//ArmaPrincipal
+inventario[0]<-" _ "
+//Capacete
+inventario[1]<-" _ "
+//Poção
+inventario[2]<-" _ "
+vida<-100
+
+//secao de comando
+//Capitulo 0
+exibeStatus
+escreval("voce esta no quarto e tem armas na sua frente oque deseja fazer?")
+mostraOpcoes("Pegar Espada", "Pegar Machado", "Pegar Luvas")
+leia(opcoesEscolhidas[rodada])
+escolha opcoesEscolhidas[rodada]
+     caso 1
+           inventario[0]<-"Espada"
+     caso 2
+           inventario[0]<-"Machado"
+     caso 3
+           inventario[0]<-"Luvas"
+fimescolha
+rodada<-rodada+1
+
+//Capitulo 1
+exibeStatus
+escreval("Voce foi atacado por um montro, oque deseja fazer?")
+se (opcoesEscolhidas[0]= 3) entao
+        escreval("Você não tem armas, voce morreu!")
+        fimalgoritmo
+senao
+     mostraOpcoes("Atacar", "Fugir", "Se esconder")
+     leia(opcoesEscolhidas[rodada])
+fimse
+rodada<-rodada+1
+
+fimalgoritmo
