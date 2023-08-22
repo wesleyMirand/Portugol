@@ -1,0 +1,29 @@
+//Somar da diagonal principal logica com matrizes
+
+var
+MATRIZ: vetor[1..3, 1..3] de inteiro
+LINHA, COLUNA, SOMA:inteiro
+
+inicio
+//secao de comando
+para LINHA de 1 ate 3 faca
+    para COLUNA DE 1 ate 3 faca
+      escreval("Digite um valor:")
+      leia(MATRIZ[LINHA, COLUNA])
+      se(LINHA=COLUNA) entao
+         SOMA<- SOMA + MATRIZ[LINHA, COLUNA]
+      fimse
+    fimpara
+  fimpara
+para LINHA de 1 ate 3 faca
+    para COLUNA DE 1 ate 3 faca
+      escreval("Digite um valor:")
+           se (COLUNA = 3) entao
+              escreval(MATRIZ[LINHA, COLUNA])
+           senao
+              escreval(MATRIZ[LINHA, COLUNA])
+            fimse
+       fimpara
+  fimpara
+escreval("A soma da diagonal principal é:", SOMA)
+fimalgoritmo
