@@ -1,0 +1,22 @@
+//CALCULADORA
+
+var
+a, b, OPCAO: inteiro
+
+inicio
+//secao de comando
+escreval("Digite o primeiro valor:")
+leia(A)
+escreval("Digite o segundo valor:")
+leia(B)
+escreval("Escolha oque deseja fazer:")
+escreval("1-Somar os valores")
+escreval("2-Multiplicar os valores")
+leia(OPCAO)
+escolha OPCAO
+caso 1
+     escreval("A soma é:",A+B)
+caso 2
+     escreval("A multiplicação é:", A*B)
+fimescolha
+fimalgoritmo
