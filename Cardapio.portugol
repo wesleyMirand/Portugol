@@ -1,0 +1,27 @@
+//Exercicios que usam menu, escolha caso, exemplo que vai fazer uma venda um cardapio
+
+var
+QUANTIDADE, PRODUTO:inteiro
+
+inicio
+//secao de comandos
+escreval("Cardapio:")
+escreval("1-HAMBURGUER R$5,00")
+escreval("2-BATATA R$3,00")
+escreval("3-REFRIGERANTE R$3,50")
+leia(PRODUTO)
+escolha PRODUTO
+caso 1
+    escreval("Quantos Hamburguers deseja comprar?")
+    leia(QUANTIDADE)
+    escreval("Isso vai custar:R$", QUANTIDADE = 5)
+caso 2
+    escreval("Quantas Batatas deseja comprar?")
+    leia(QUANTIDADE)
+    escreval("Isso vai custar:R$", QUANTIDADE = 3),
+caso 3
+    escreval("Quantos Refrigerantes deseja comprar?")
+    leia(QUANTIDADE)
+    escreval("Isso vai custar:R$", QUANTIDADE = 3.5)
+fimescolha
+fimalgoritmo
