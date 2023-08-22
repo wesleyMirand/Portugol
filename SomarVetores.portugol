@@ -1,0 +1,16 @@
+//Agora fazer somar os valores do vetor e depois calcular a media
+
+var 
+A:vetor[1..10] de inteiro
+I, SOMA:inteiro
+
+inicio
+//secao de de comando
+para I de 1 ate 10 faca
+    escreval("Digite um numero")
+    leia(A[I])
+    SOMA<- SOMA + A[I]
+fimpara
+escreval("A média é:",Soma/10)
+fimpara
+fimalgoritmo
