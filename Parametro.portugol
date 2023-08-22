@@ -1,0 +1,16 @@
+//E para passa dois parametro
+var
+A, B, R:inteiro
+
+funcao SOMA(A, B:inteiro):inteiro
+inicio
+     retorne A+B
+fimfuncao
+
+inicio
+//secao de comando
+escreval("Digite uma valor:")
+leia(A, B)
+R<-SOMA(A, B)
+escreval(R)
+fimalgoritmo
