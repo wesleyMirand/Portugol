@@ -1,0 +1,17 @@
+//funcoes pequenos trecho de codigo que chamo na execuçao do programa, para que eu nao tenho que escrever o programa sempre inteiro e cada coisa que for fazer, ajuda a economizar linha de codigo. Eu vou chamar uma funcao, -Porém como chamar uma funcao se eu nao tiver ela?, Eu poderia dizer que meu R vai receber meu A + 5, mais eu nao vou fazer assim. Iremos usar funcao. Vamos criar uma funcao chamada soma, com a variavel que vou receber, posso usar qualquer nome.
+
+var
+A, R:inteiro
+
+funcao SOMA(A : inteiro):inteiro
+inicio
+     retorne A+5
+fimfuncao
+
+inicio
+//secao de comando
+escreval("Digite uma valor:")
+leia(A)
+R<-SOMA(A)
+escreval(R)
+fimalgoritmo
