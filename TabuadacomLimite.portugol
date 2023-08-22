@@ -1,0 +1,16 @@
+
+//Repita simples, calcular tabuada com limite, diferencia de enquanto pro repita
+
+var
+VALOR, CONTADOR:inteiro
+
+inicio
+//Secao de Comandos
+CONTADOR<-1
+escreval("Digite um valor:")
+leia(VALOR)
+repita 
+   escreval(VALOR, " x ",CONTADOR, " = ", VALOR*CONTADOR)
+   CONTADOR <- CONTADOR +1
+ate (CONTADOR=11)
+fimalgoritmo
