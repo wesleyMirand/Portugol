@@ -1,0 +1,16 @@
+//Agora que ele leie 10 valores e mostre esses 10 valores
+
+var 
+A:vetor[1..10] de inteiro
+I:inteiro
+
+inicio
+//secao de de comando
+para I de 1 ate 10 faca
+    escreval("Digite um numero")
+    leia(A[I])
+fimpara
+para I de 1 ate 10 faca
+    escreval(A[I])
+fimpara
+fimalgoritmo
