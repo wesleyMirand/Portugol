@@ -1,0 +1,34 @@
+fazer ANIMACões no visual g
+
+var
+time:inteiro
+
+inicio
+//secao de comandos
+time<-100 
+
+escrevel("0-----")
+timer time
+limpatela 
+
+escrevel("-0----")
+timer time
+limpatela 
+
+escrevel("--0---")
+timer time
+limpatela 
+
+escrevel("---0--")
+timer time
+limpatela 
+
+escrevel("----0-")
+timer time
+limpatela 
+
+escrevel("-----0")
+timer time
+limpatela 
+
+fimalgoritmo
