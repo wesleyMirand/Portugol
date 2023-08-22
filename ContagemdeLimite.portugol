@@ -1,0 +1,19 @@
+//Exibir contagem de limites fornecido exemplo de para com c, se o numero for par vai exibir na tela
+
+var
+SUP, INF:inteiro
+
+inicio
+//secao de comandos
+escreval("Digite um limite superior:")
+leia(SUP)
+escreval("Digite um limite inferior:")
+leia(INF)
+se (INF<SUP)entao
+    para INF de INF de SUP faca
+       se(INF MOD 2 = 0 )entao
+          escvreval(INF)
+       fimse
+     fimpara
+fimse
+fimalgoritmo
