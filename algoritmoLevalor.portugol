@@ -1,0 +1,20 @@
+
+//algoritmo que le 10 valores e armaneza vetores e se o valor for impar ele vai exibir na tela se nao so vai passar e ler outros valores
+
+var 
+A:vetor[1..10] de inteiro
+I:inteiro
+
+inicio
+//secao de de comando
+para I de 1 ate 10 faca
+    escreval("Digite um numero")
+    leia(A[I])
+    se (A[I] MOD 2 = 1) entao
+        escreval("Valor impar: ", A[I])
+fimse
+fimpara
+fimalgoritmo
+
+fimpara
+fimalgoritmo
