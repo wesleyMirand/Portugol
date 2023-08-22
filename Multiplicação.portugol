@@ -1,0 +1,19 @@
+//Agora ele vai exibir 5 multiplicação
+var 
+A, B, C:vetor[1..10] de inteiro
+I:inteiro
+
+inicio
+//secao de de comando
+para I de 1 ate 3 faca
+    escreval("Digite um numero")
+    leia(A[I])
+fimpara
+para I de 1 ate 3 faca
+    escreval("Digite um numero")
+    leia(B[I])
+fimpara
+para I de 1 ate 3 faca
+    C[I]<- A[I] + B[I]
+    escreval(C[I])
+fimpara
